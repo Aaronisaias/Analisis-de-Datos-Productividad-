@@ -1,0 +1,68 @@
+ANALISIS DEL DATASET - RESPUESTAS A PREGUNTAS
+============================================
+
+Pregunta 1. Cual es el promedio de sueno, horas de trabajo, estres y tiempo de pantalla?
+- Sueno promedio: 6.53 h
+- Horas de trabajo promedio: 8.14 h
+- Estres promedio: 4.91
+- Tiempo en pantalla promedio: 7.99 h
+
+Pregunta 2. Cual es el promedio de reuniones y de tareas completadas?
+- Reuniones promedio por dia: 4.46
+- Tareas completadas promedio: 10.04
+
+Pregunta 3. Por rango de edad, cual es el promedio maximo de estres?
+- Rango con mayor estres promedio: 50-59 (5.13)
+- Detalle de estres por rango de edad:
+  - 50-59: 5.13
+  - 40-49: 5.09
+  - 20-29: 4.70
+  - 30-39: 4.63
+
+Pregunta 4. Cual es el rango de edad con mas y menos productividad promedio?
+- Mayor productividad promedio: 50-59 (70.97)
+- Menor productividad promedio: 30-39 (68.08)
+- Detalle de productividad por rango de edad:
+  - 50-59: 70.97
+  - 20-29: 70.08
+  - 40-49: 69.17
+  - 30-39: 68.08
+
+Pregunta 5. Que area tiene mas horas de trabajo, reuniones, tareas cumplidas y puntaje de productividad?
+- Area con mas horas de trabajo promedio: HR (8.70)
+- Area con mas reuniones promedio: IT (4.78)
+- Area con mas tareas promedio: IT (11.00)
+- Area con mas productividad promedio: Sales (71.04)
+
+Pregunta 6. Cual es el promedio por area de sueno, estres, tiempo en pantalla, horas de trabajo y productividad?
+Area,Prom_Sueno,Prom_Estres,Prom_Pantalla,Prom_Horas_Trabajo,Prom_Productividad
+Finance,6.41,4.41,7.95,8.24,69.00
+HR,6.44,5.39,7.72,8.70,70.10
+IT,6.67,4.88,8.25,8.05,70.41
+Operations,6.74,4.70,8.05,7.87,66.87
+Sales,6.47,5.19,8.00,7.84,71.04
+
+Pregunta 7. Por rango de edad, cual tiene promedio de sueno de 8 horas y productividad alta, y cuales son horas trabajadas, tareas y reuniones?
+- En este dataset ningun rango llega a 8.00 h promedio de sueno.
+- El rango mas cercano a 8 horas y con productividad alta es: 50-59
+  - Sueno promedio: 6.69 h
+  - Productividad promedio: 70.97
+  - Horas trabajadas promedio: 7.93 h
+  - Tareas cumplidas promedio: 10.73
+  - Reuniones promedio: 4.52
+
+RECOMENDACIONES PARA SOLUCIONAR EL PROBLEMA
+===========================================
+- Revisar la calidad e impacto de tareas, no solo cantidad.
+- Ajustar KPIs a resultados de negocio, no solo esfuerzo.
+- Identificar areas con mayor carga de horas y reuniones para optimizar procesos.
+- Aplicar seguimiento especial al rango 50-59 por estres alto.
+- Mantener monitoreo por area y rango de edad para decisiones de RRHH.
+
+QUE MOSTRAR EN POWER BI
+=======================
+- Tarjetas KPI: sueno, horas, estres, pantalla, reuniones, tareas, productividad.
+- Barras por area: productividad, horas, reuniones y tareas promedio.
+- Barras por rango de edad: estres y productividad promedio.
+- Matriz por area con sueno, estres, pantalla, horas y productividad.
+- Scatter: horas trabajadas vs productividad, color por area.
