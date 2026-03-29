@@ -55,7 +55,7 @@ Esto crea (o actualiza) `analisis_productividad.txt` con:
 <<<<<<< HEAD
 =======
 ###Analisis Visual (Power Bi)
-![Visual-Grafico](image.png)
+![Visual-Grafico](Visual_Grafico.png)
 
 >>>>>>> 4b2d4007dbf312eef1e8537b43c8787dc5203434
 Tambien crea:
