@@ -52,6 +52,12 @@ Esto crea (o actualiza) `analisis_productividad.txt` con:
 - Recomendaciones para tomar decisiones.
 - Que mostrar en Power BI.
 
+<<<<<<< HEAD
+=======
+###Analisis Visual (Power Bi)
+![Visual-Grafico](image.png)
+
+>>>>>>> 4b2d4007dbf312eef1e8537b43c8787dc5203434
 Tambien crea:
 
 - `Data_analysis.xlsx` (hoja `Datos_Limpios`) con columnas en espanol:
